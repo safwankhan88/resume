@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pathan Safwankhan Firozkhan — Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- CURSOR --> 
+<div id="cursor-dot"></div>
+<div id="cursor-ring"></div>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-initials">PSF</div>
+  <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+  <div class="loader-text">Initializing Portfolio...</div>
+</div>
+
+<!-- CANVAS -->
+<canvas id="canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">Safwankhan.</a>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#resume">Resume</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-left reveal">
+    <div class="avail-badge">
+      <span class="avail-dot"></span>
+      Available for opportunities
+    </div>
+      <div class="hero-profile">
+       <img src="profile.jpg.png" alt="Safwan Khan" />
+      </div>
+    <h1 class="hero-name">Pathan<br>Safwankhan<br>Firozkhan</h1>
+    <p class="hero-sub">Software Engineer & Web Developer crafting high-converting, mobile-responsive web applications for real clients since day one.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-primary">View Projects →</a>
+      <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      <a href="resume.pdf" download class="btn btn-resume">⬇ Download Resume</a>
+    </div>
+  </div>
+  <div class="hero-right reveal right">
+    <div class="hero-card-wrap">
+      <div class="glow-orb"></div>
+      <div class="spin-ring"></div>
+      <div class="hero-card">
+        <div class="card-avatar">PSF</div>
+        <div class="card-name">Safwankhan Pathan</div>
+        <div class="card-role">Software Engineer</div>
+        <div class="card-stats">
+          <div class="stat"><div class="stat-num">3+</div><div class="stat-label">Projects</div></div>
+          <div class="stat"><div class="stat-num">5+</div><div class="stat-label">Certs</div></div>
+          <div class="stat"><div class="stat-num">3</div><div class="stat-label">Langs</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-section">
+  <div class="marquee-track">
+    <span class="marquee-item">TCS iON Certified</span>
+    <span class="marquee-item">SkillEcted Certified</span>
+    <span class="marquee-item">A1 Auto Care</span>
+    <span class="marquee-item">Ayeza Mehendi</span>
+    <span class="marquee-item">WEB developer</span>
+    <span class="marquee-item">GitHub Pages</span>
+    <span class="marquee-item">Freelance Web Dev</span>
+    <span class="marquee-item">SEO Optimization</span>
+    <span class="marquee-item">TCS iON Certified</span>
+    <span class="marquee-item">SkillEcted Certified</span>
+    <span class="marquee-item">A1 Auto Care</span>
+    <span class="marquee-item">Ayeza Mehendi</span>
+    <span class="marquee-item">WEB Developer</span>
+    <span class="marquee-item">GitHub Pages</span>
+    <span class="marquee-item">Freelance Web Dev</span>
+    <span class="marquee-item">SEO Optimization</span>
+  </div>
+</div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-tag reveal">Expertise</div>
+  <h2 class="section-title reveal">Skills & Technologies</h2>
+  <div class="skills-grid">
+    <div>
+      <div class="skill-item reveal">
+        <div class="skill-top"><span class="skill-name">HTML & CSS</span><span class="skill-pct">95%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar" data-pct="95" style="background:linear-gradient(90deg,#6366f1,#ec4899)"></div></div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="skill-top"><span class="skill-name">UI/UX Design</span><span class="skill-pct">88%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar" data-pct="88" style="background:linear-gradient(90deg,#ec4899,#f59e0b)"></div></div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="skill-top"><span class="skill-name">Logo & Content Design</span><span class="skill-pct">90%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar" data-pct="90" style="background:linear-gradient(90deg,#f59e0b,#ec4899)"></div></div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="skill-top"><span class="skill-name">SEO Optimization</span><span class="skill-pct">70%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar" data-pct="70" style="background:linear-gradient(90deg,#06b6d4,#6366f1)"></div></div>
+      </div>
+    </div>
+    <div>
+      <div class="skill-item reveal">
+        <div class="skill-top"><span class="skill-name">JavaScript</span><span class="skill-pct">50%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar" data-pct="50" style="background:linear-gradient(90deg,#f59e0b,#06b6d4)"></div></div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="skill-top"><span class="skill-name">Python</span><span class="skill-pct">55%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar" data-pct="55" style="background:linear-gradient(90deg,#6366f1,#06b6d4)"></div></div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="skill-top"><span class="skill-name">C++</span><span class="skill-pct">50%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar" data-pct="50" style="background:linear-gradient(90deg,#ec4899,#6366f1)"></div></div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="skill-top"><span class="skill-name">Responsive Web Design</span><span class="skill-pct">92%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar" data-pct="92" style="background:linear-gradient(90deg,#06b6d4,#ec4899)"></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="chips-title reveal">Tech Stack</div>
+  <div class="chips-cloud reveal">
+    <span class="chip c1">HTML</span><span class="chip c2">CSS</span><span class="chip c3">JavaScript</span>
+    <span class="chip c4">Python</span><span class="chip c1">C++</span><span class="chip c2">GitHub</span>
+    <span class="chip c3">VS Code</span><span class="chip c4">MS Office</span><span class="chip c1">SEO</span>
+    <span class="chip c2">UI/UX Design</span><span class="chip c3">Logo Design</span><span class="chip c4">OOP</span>
+    <span class="chip c1">Data Structures</span><span class="chip c2">DBMS</span><span class="chip c3">SDLC</span>
+    <span class="chip c4">Responsive Design</span><span class="chip c1">GitHub Pages</span><span class="chip c2">WhatsApp API</span>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-tag reveal">Portfolio</div>
+  <h2 class="section-title reveal">Projects</h2>
+  <div class="projects-grid">
+    <div class="proj-card reveal">
+      <span class="proj-emoji">🧑‍💻</span>
+      <div class="proj-name">Personal Developer Portfolio</div>
+      <p class="proj-desc">A professional freelance portfolio showcasing 10+ client projects, skill proficiency bars, testimonials, and pricing plans starting at ₹8999. Features SEO optimization and WhatsApp lead generation.</p>
+      <div class="proj-tags">
+        <span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span class="proj-tag">JavaScript</span><span class="proj-tag">SEO</span>
+      </div>
+      <a href="https://safwankhan88.github.io/portfolio/" class="proj-link" target="_blank">Live Demo →</a>
+    </div>
+    <div class="proj-card reveal">
+      <span class="proj-emoji">🚗</span>
+      <div class="proj-name">A1 Auto Care — Business Website</div>
+      <p class="proj-desc">Complete business website for A1 Auto Care Shahada (est. 1997, 5,000+ customers). Features 7 service listings, appointment booking, team profiles, gallery, testimonials, and social media integration.</p>
+      <div class="proj-tags">
+        <span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span class="proj-tag">JavaScript</span><span class="proj-tag">Local SEO</span>
+      </div>
+      <a href="https://safwankhan88.github.io/a1autocare/" class="proj-link" target="_blank">Live Demo →</a>
+    </div>
+    <div class="proj-card reveal">
+      <span class="proj-emoji">🌿</span>
+      <div class="proj-name">Ayeza Mehendi — E-Commerce Store</div>
+      <p class="proj-desc">Fully functional e-commerce website for a premium mehendi cone brand. Includes 4-product catalog, dynamic cart with real-time price calculation, and WhatsApp checkout integration.</p>
+      <div class="proj-tags">
+        <span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span class="proj-tag">JavaScript</span><span class="proj-tag">E-Commerce</span>
+      </div>
+      <a href="https://safwankhan88.github.io/ayezacones/" class="proj-link" target="_blank">Live Demo →</a>
+    </div>
+  </div>
+</section>
+
+ <!-- RESUME -->
+<section id="resume">
+  <div class="section-tag reveal">Resume</div>
+  <h2 class="section-title reveal">My Resume</h2>
+  <div class="resume-wrap reveal">
+    <div class="resume-card">
+      <div class="resume-icon">📄</div>
+      <div class="resume-info">
+        <div class="resume-name">Pathan Safwankhan Firozkhan</div>
+        <div class="resume-role">Software Engineer & Web Developer</div>
+        <div class="resume-meta">B.Sc. Computer Science · KBCNMU · Updated 2026</div>
+      </div>
+      <div class="resume-actions">
+        <a href="resume.pdf" download class="btn btn-primary resume-btn">⬇ Download PDF</a>
+        <a href="resume.pdf" target="_blank" class="btn btn-outline resume-btn">👁 View Online</a>
+      </div>
+    </div>
+    <div class="resume-highlights">
+      <div class="res-point reveal">
+        <span class="res-icon">🎓</span>
+        <span>B.Sc. Computer Science — KBCNMU (2023–2026)</span>
+      </div>
+      <div class="res-point reveal">
+        <span class="res-icon">💼</span>
+        <span>Freelance Web Developer — 3+ Live Projects</span>
+      </div>
+      <div class="res-point reveal">
+        <span class="res-icon">🏆</span>
+        <span>5+ Certifications — TCS iON, SkillEcted, Forage</span>
+      </div>
+      <div class="res-point reveal">
+        <span class="res-icon">🌐</span>
+        <span>HTML, CSS, JS, Python, C++ · SEO · UI/UX</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-tag reveal">Journey</div>
+  <h2 class="section-title reveal">Experience</h2>
+  <div class="timeline">
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="tl-card">
+        <div class="tl-header">
+          <div class="tl-title">Freelance Web Developer & Designer</div>
+          <div class="tl-date">2026 – Present</div>
+        </div>
+        <div class="tl-company">Self-Employed · Shahada, Nandurbar, Maharashtra</div>
+        <div class="tl-desc">Designed and developed fully responsive, SEO-optimized business websites for local clients. Built 3+ live projects serving real customers. Managed end-to-end development from design to deployment on GitHub Pages. Delivered mobile-first, high-converting websites with WhatsApp business integration at competitive pricing (₹999+).</div>
+        <div class="tl-chips">
+          <span class="tl-chip">HTML/CSS</span><span class="tl-chip">JavaScript</span><span class="tl-chip">SEO</span><span class="tl-chip">UI/UX</span><span class="tl-chip">GitHub Pages</span>
+        </div>
+      </div>
+    </div>
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="tl-card">
+        <div class="tl-header">
+          <div class="tl-title">Diagnostic Expert & Software Role</div>
+          <div class="tl-date">2023 – Present</div>
+        </div>
+        <div class="tl-company">A1 Auto Care Shahada · Khetiya Road, Shahada</div>
+        <div class="tl-desc">Serves as the Computer & Software Engineer and Diagnostic Expert at the family garage. Applies understanding of car ECU systems and digital diagnostic tools. Built and maintains the official business website. Bridges technical knowledge with software expertise to streamline business operations.</div>
+        <div class="tl-chips">
+          <span class="tl-chip">ECU Diagnostics</span><span class="tl-chip">Web Development</span><span class="tl-chip">Business Tech</span>
+        </div>
+      </div>
+    </div>
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="tl-card">
+        <div class="tl-header">
+          <div class="tl-title">B.Sc. Computer Science Student</div>
+          <div class="tl-date">2023 – 2026</div>
+        </div>
+        <div class="tl-company">KBCNMU · Kavayitri Bahinabai Chaudhary North Maharashtra University</div>
+        <div class="tl-desc">Pursuing B.Sc. Computer Science with strong foundation in programming, data structures, algorithms, DBMS, OOP, and software engineering. Applying academic knowledge directly to real-world freelance projects alongside coursework.</div>
+        <div class="tl-chips">
+          <span class="tl-chip">DSA</span><span class="tl-chip">OOP</span><span class="tl-chip">DBMS</span><span class="tl-chip">Software Engineering</span><span class="tl-chip">Networks</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-tag reveal">Academic</div>
+  <h2 class="section-title reveal">Education</h2>
+  <div class="edu-grid">
+    <div class="edu-card reveal">
+      <div class="edu-degree">B.Sc. Computer Science</div>
+      <div class="edu-school">Kavayitri Bahinabai Chaudhary North Maharashtra University (KBCNMU), Jalgaon</div>
+      <div class="edu-badge">2023 – 2026 · Pursuing</div>
+    </div>
+    <div class="edu-card reveal">
+      <div class="edu-degree">Higher Secondary Certificate (HSC)</div>
+      <div class="edu-school">Science Stream · Maharashtra State Board of Secondary & Higher Secondary Education</div>
+      <div class="edu-badge">Feb 2023 · 63.67%</div>
+    </div>
+    <div class="edu-card reveal">
+      <div class="edu-degree">Secondary School Certificate (SSC)</div>
+      <div class="edu-school">Science Stream · Maharashtra State Board of Secondary & Higher Secondary Education</div>
+      <div class="edu-badge">2021 · 73.60%</div>
+    </div>
+  </div>
+
+ <div class="lang-section reveal">
+  <div class="lang-title">Certifications</div>
+  <div class="lang-badges">
+
+    <div class="lang-badge">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="lang-flag">🏆</span>
+        <div>
+          <div class="lang-name">Master Data Management for Beginners</div>
+          <div class="lang-level">TCS iON · Feb 14, 2025</div>
+        </div>
+      </div>
+      <button class="show-cert-btn" onclick="showCert(0)">Show</button>
+    </div>
+
+    <div class="lang-badge">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="lang-flag">🏆</span>
+        <div>
+          <div class="lang-name">Date & Time in Python: Basics to Automation</div>
+          <div class="lang-level">SkillEcted · Feb 16, 2025</div>
+        </div>
+      </div>
+      <button class="show-cert-btn" onclick="showCert(1)">Show</button>
+    </div>
+       
+    <div class="lang-badge">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="lang-flag">🏆</span>
+        <div>
+          <div class="lang-name">intership common aptitude test</div>
+          <div class="lang-level">iCAT · April 27, 2026</div>
+        </div>
+      </div>
+      <button class="show-cert-btn" onclick="showCert(2)">Show</button>
+    </div>
+
+    <div class="lang-badge">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="lang-flag">🏆</span>
+        <div>
+          <div class="lang-name">cybersecurity analyst</div>
+          <div class="lang-level">Forage · feb 12, 2025</div>
+        </div>
+      </div>
+      <button class="show-cert-btn" onclick="showCert(3)">Show</button>
+    </div>
+
+    <div class="lang-badge">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="lang-flag">🏆</span>
+        <div>
+          <div class="lang-name">Data Visualisation: Empowering Business with Effective Insights</div>
+          <div class="lang-level">Forage · feb 11, 2025</div>
+        </div>
+      </div>
+      <button class="show-cert-btn" onclick="showCert(4)">Show</button>
+    </div>
+    
+  </div>
+</div>
+
+  <div class="lang-section reveal" style="margin-top:2rem">
+    <div class="lang-title">Languages</div>
+    <div class="lang-badges">
+      <div class="lang-badge"><span class="lang-flag">🇬🇧</span><div><div class="lang-name">English</div><div class="lang-level">Professional Proficiency</div></div></div>
+      <div class="lang-badge"><span class="lang-flag">🇮🇳</span><div><div class="lang-name">Hindi</div><div class="lang-level">Full Professional Proficiency</div></div></div>
+      <div class="lang-badge"><span class="lang-flag">🟠</span><div><div class="lang-name">Marathi</div><div class="lang-level">Native Speaker</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-tag reveal">Let's Talk</div>
+  <h2 class="section-title reveal">Get In Touch</h2>
+
+  <div class="contact-wrap">
+
+    <div class="contact-cards">
+
+      <!-- EMAIL -->
+      <div class="contact-card reveal left">
+        <div class="contact-icon ci1">📧</div>
+        <div>
+          <div class="contact-label">Email</div>
+          <div class="contact-val">
+            <a href="mailto:safwankhan448@gmail.com" style="color: white; text-decoration: none;">
+              safwankhan448@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PHONE -->
+      <div class="contact-card reveal left">
+        <div class="contact-icon ci2">📞</div>
+        <div>
+          <div class="contact-label">Phone</div>
+          <div class="contact-val">
+            <a href="tel:+918408802188" style="color: white; text-decoration: none;">
+              +91 8408802188
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- LOCATION -->
+      <div class="contact-card reveal left">
+        <div class="contact-icon ci3">📍</div>
+        <div>
+          <div class="contact-label">Location</div>
+          <div class="contact-val">
+            Shahada, Nandurbar, Maharashtra
+          </div>
+        </div>
+      </div>
+
+      <!-- GITHUB -->
+      <div class="contact-card reveal left">
+        <div class="contact-icon ci4">💼</div>
+        <div>
+          <div class="contact-label">GitHub</div>
+          <div class="contact-val">
+            <a href="https://github.com/safwankhan88" target="_blank" style="color: white; text-decoration: none;">
+              github.com/safwankhan88
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- AVATAR -->
+    <div class="contact-avatar-wrap reveal right">
+      <div class="ripple"></div>
+      <div class="ripple"></div>
+      <div class="ripple"></div>
+      <div class="contact-avatar">PSF</div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<!-- WHATSAPP BUTTON -->
+<a href="https://wa.me/918408802188?text=Hello%20Safwan%20I%20want%20a%20website"
+   target="_blank"
+   class="whatsapp-float">
+   <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+</a>
+<footer>
+  <p>Crafted with ❤️ by <strong>Pathan Safwankhan Firozkhan</strong> · © 2026</p>
+</footer>
+
+<!-- Certificate Modal -->
+<div class="cert-overlay" id="certOverlay" onclick="closeCert(event)">
+  <div class="cert-modal">
+    <button class="cert-close-btn" onclick="closeCertBtn()">✕</button>
+    <img id="certImage" src="" alt="Certificate" style="width:100%;border-radius:8px;display:block;">
+    <div class="cert-modal-name" id="certModalName"></div>
+    <div class="cert-modal-issuer" id="certModalIssuer"></div>
+  </div>
+</div>
+
+<script>
+const certData = [
+  {
+    name: "Master Data Management for Beginners",
+    issuer: "TCS iON · Feb 14, 2025",
+    image: "certificate-1.png.jpeg"   // ← apni image ka naam likho
+  },
+  {
+    name: "Date & Time in Python: Basics to Automation",
+    issuer: "SkillEcted · Feb 16, 2025",
+    image: "certificate-2.png.jpeg"   // ← apni image ka naam likho
+  },
+  {
+    name: "internship common aptitude tesr",
+    issuer: "iCAT · April 27, 2026",
+    image: "certificate-3.jpg.jpeg"   // ← apni image ka naam likho
+  },
+  {
+    name: "cybersecurity analyst",
+    issuer: "Forage · Feb 12, 2025",
+    image: "certificate-4.jpg.jpeg"   // ← apni image ka naam likho
+  },
+  {
+    name: "Data Visualisation: Empowering Business with Effective Insights",
+    issuer: "Forage · Feb 11, 2025",
+    image: "certificate-5.jpg.jpeg"   // ← apni image ka naam likho
+  }
+];
+
+function showCert(i) {
+  document.getElementById('certImage').src = certData[i].image;
+  document.getElementById('certModalName').textContent = certData[i].name;
+  document.getElementById('certModalIssuer').textContent = certData[i].issuer;
+  document.getElementById('certOverlay').classList.add('open');
+}
+function closeCertBtn() {
+  document.getElementById('certOverlay').classList.remove('open');
+}
+function closeCert(e) {
+  if (e.target === document.getElementById('certOverlay')) closeCertBtn();
+}
+</script>
+</body>
+</html>
